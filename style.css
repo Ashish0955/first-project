@@ -212,7 +212,6 @@ padding: 6px 13px;
 font-family: 'Roboto','sana-serif';
 transition: 0.4s;
 }
-.navbar ul li a.hyy,
 .navbar ul li a:hover{
     background: orangered;
     border-radius: 2px;
@@ -263,8 +262,8 @@ transition: 0.4s;
     width: 150px;
     font-size: 18px;
     font-weight: bold;
-    color: white;
-    background: orangered;
+    color: black;
+    background: yellow;
     border: 1px solid black;
     outline: none;
     cursor: pointer;
@@ -302,6 +301,10 @@ transition: 0.05s;
     opacity: 1;
     right: 0;
 }  */
+
+
+
+
 
 
 
