@@ -263,7 +263,7 @@ transition: 0.4s;
     font-size: 18px;
     font-weight: bold;
     color: black;
-    background: yellow;
+    background: #242F9B;
     border: 1px solid black;
     outline: none;
     cursor: pointer;
@@ -275,8 +275,8 @@ transition: 0.4s;
     margin-left: 25px;
 }
 .buttons button:hover{
-    background: #145DA0;
-    box-shadow: 0 5px 5px 0 #145DA0;
+    background: #9BA3EB;
+    box-shadow: 0 5px 5px 0 #242F9B;
 }
 /* .buttons .btn span{
 cursor: pointer;
@@ -302,11 +302,66 @@ transition: 0.05s;
     right: 0;
 }  */
 
+.form{
+    width:250px;
+    height:350px;
+    background: linear-gradient(to top , rgba(0,0,0,0.7)50%, rgba(0,0,0,0.7)50%);
+    position:absolute;
+    top: 120px;
+    left: 1060px;
+    border-radius:10px;
+    padding:25px;
+    user-select: none;
 
 
+}
 
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    color: #000;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    user-select: none;
+}
+  .form input:focus{
+    outline: none;
+} 
+::placeholder{
+    color: #fff;
+    font-family: sans-serif;
 
+}
 
+.btnn{
+    width: 240px;
+    height: 30px;
+    background: #FFF89C;
+    border: none;
+    margin-top: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    user-select:none;
+
+}
+
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    user-select: none;
+}
 
 
 
